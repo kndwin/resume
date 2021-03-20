@@ -11,16 +11,13 @@ code {
 	margin-right: 1rem;
 	font-size: 12pt;
 	margin-bottom: 0; 
+  background-color: #EEE; 
+  padding: 0.25rem 0.4rem;
+  border-radius: 5px;
 }
 
 h1, h2, h3 {
 	margin: 1rem 0 0.5rem 0;
 	display: flex;
 	align-items: center;
-}
-
-img {
-	width: auto;
-	height: 50px; 
-	margin-right: 1rem;
 }
