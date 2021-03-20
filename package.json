@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start": "nodemon --watch './*' server.ts",
+    "start": "nodemon --watch 'src' -e ts,md,css server.ts",
     "build": "tsc"
   },
   "keywords": [],

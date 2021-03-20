@@ -1,0 +1,51 @@
+body {
+	font-family: "Computer Modern Serif", sans-serif;
+	padding: 2rem;
+	display: block;
+}
+
+code {
+	margin-right: 1rem;
+	margin-bottom: 0; 
+  background-color: #EFEFEF; 
+  padding: 0.25rem 0.4rem;
+  border-radius: 5px;
+}
+
+h1, h2, h3 {
+  display: flex;
+  align-items: center;
+}
+
+h1, h2 {
+	margin: 1.25rem 0 0.25rem 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+p, li>ul, li {
+  margin: 0;
+}
+
+ul {
+  margin: 0.25rem 0 1rem  0;
+}
+
+@media print {
+  * { 
+    float: none; 
+  }
+
+  body {
+    margin: 0; 
+    padding: 0; 
+  }
+
+}
+
+
+@page {
+  size: A4;
+}

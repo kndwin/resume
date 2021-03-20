@@ -9,4 +9,4 @@ Make sure you have `npm` installed.
 
 Edit the `.md` file to your preference and the markdown file will get parsed similiarly like this image below.
 
-![Resume example](./resume.webp)
+![Resume example](./static/resume.webp)
