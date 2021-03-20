@@ -2,11 +2,21 @@ body {
 	font-family: "Computer Modern Serif", sans-serif;
 	padding: 2rem;
 	display: block;
+
+}
+
+.icon {
+  height: 0.8rem;
+  margin: 0 0 0 0.5rem;
+}
+
+.iconLg {
+  height: 2rem; 
+  margin: 0.5rem 1rem;
 }
 
 code {
-	margin-right: 1rem;
-	margin-bottom: 0; 
+  margin: 0 0.5rem 0 0; 
   background-color: #EFEFEF; 
   padding: 0.25rem 0.4rem;
   border-radius: 5px;
@@ -24,6 +34,8 @@ h1, h2 {
 h3 {
 	margin: 0;
 }
+
+
 
 p, li>ul, li {
   margin: 0;
